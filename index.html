@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dark Entry Landing Page</title>
+    <title>Dark Entry</title>
     <style>
         body {
             background-image: url('https://github.com/zigoo0/darkentrylanding/blob/main/background.png?raw=true');
@@ -33,13 +33,29 @@
         }
 
         .blue {
-            color: #B8860B;
+            color: gold;
         }
 
         p {
             font-size: 1.5em;
             color: grey;
             text-align: justify;
+        }
+
+        /* Media Query for screens smaller than 600px */
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font-size: 3.5em;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
